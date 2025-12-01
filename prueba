@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int suma();
+void Nombre(char nombre[15]);
+int main() {
+  printf("hola soy monse c;\n");
+  printf("holi carlitos\n");
+  printf("Sacamos 10 en progra \n");
+  int resultadoSuma;
+  resultadoSuma=suma();
+  printf("La suma es: %i\n",resultadoSuma);
+
+  return 0;
